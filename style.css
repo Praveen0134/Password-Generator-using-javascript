@@ -1,0 +1,84 @@
+/* Basic reset for consistent styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full height and center alignment */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.first{
+    border: 3px solid black;
+    padding: 24px;
+    text-align: center;
+}
+button{
+    background-color: hotpink;
+}
+.container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+/* Title styling */
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Options section styling */
+.options {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.options input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.options label {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Input field styling */
+#inp {
+    width: calc(100% - 22px); /* Adjust width for padding and borders */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #9c0bea;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
